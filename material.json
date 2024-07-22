@@ -1,0 +1,688 @@
+{
+    "materiais": [
+            {
+                "material": "4140",
+                "id": 1,
+                "norma": "AISI",
+                "chave de material": "",
+                "numero_din": "",
+                "iso": "",
+                "origem": "EM-03.02.01",
+                "observações": "",
+                "equivalencia": "",
+                "similar": "",
+                "tipos_de_fornecimento": {
+                    "forma": {
+                        "barra_redonda": true,
+                        "barra retangular": false,
+                        "chapa": true,
+                        "perfil_comercial": false,
+                        "perfil_especial": false
+                    },
+                    "processo": {
+                        "laminado": true,
+                        "terfilado": true,
+                        "forjado": true,
+                        "fundido": false
+                    }
+                },
+                "composicao_quimica": {
+                    "aluminio": {
+                        "min": 0,
+                        "max": 0
+                    },
+                    "carbono": {
+                        "min": 0.38,
+                        "max": 0.43
+                    },
+                    "cromo": {
+                        "min": 0.80,
+                        "max": 1.10
+                    },
+                    "manganes": {
+                        "min": 0.75,
+                        "max": 1
+                    },
+                    "molibidenio": {
+                        "min": 0.15,
+                        "max": 0.25
+                    },
+                    "niquel": {
+                        "min": 0,
+                        "max": 0
+                    },
+                    "enxofre": {
+                        "min": 0,
+                        "max": 0.04
+                    },
+                    "fosforo": {
+                        "min": 0,
+                        "max": 0.04
+                    },
+                    "silicio": {
+                        "min": 0.15,
+                        "max": 0.25
+                    },
+                    "titanio": {
+                        "min": 0,
+                        "max": 0
+                    },
+                    "tungstenio": {
+                        "min": 0,
+                        "max": 0
+                    },
+                    "vanadio": {
+                        "min": 0,
+                        "max": 0
+                    },
+                    "boro": {
+                        "min": 0,
+                        "max": 0
+                    },
+                    "calcio": {
+                        "min": 0,
+                        "max": 0
+                    },
+                    "chumbo": {
+                        "min": 0,
+                        "max": 0
+                    },
+                    "cobalto": {
+                        "min": 0,
+                        "max": 0
+                    },
+                    "cobre": {
+                        "min": 0,
+                        "max": 0
+                    },
+                    "hidrogenio": {
+                        "min": 0,
+                        "max": 0
+                    },
+                    "niobio": {
+                        "min": 0,
+                        "max": 0
+                    },
+                    "selenio": {
+                        "min": 0,
+                        "max": 0
+                    },
+                    "outros": {
+                        "min": 0,
+                        "max": 0
+                    }
+                },
+                "caracteristicas_mecanicas": {
+                    "tensao_de_ruptura": {
+                        "até 2.1/2''": 88,
+                        "de 2.1/'' a 4''": 81,
+                        "de 4'' a 7''": 77,
+                        ">7''": 0
+                    },
+                    "tensao_de_escoamento": {
+                        "até 2.1/2''": 74,
+                        "de 2.1/'' a 4''": 67,
+                        "de 4'' a 7''": 60,
+                        ">7''": 0
+                    },
+                    "limite_elastico": {
+                        "n/mm2": 0,
+                        "100C": 0,
+                        "200C": 0,
+                        "300C": 0,
+                        "400C": 0
+                    },
+                    "modulo_de_elasticidade": {
+                        "n/mm2": 0,
+                        "100C": 0,
+                        "200C": 0,
+                        "300C": 0,
+                        "400C": 0
+                    },
+                    "dilatacao_termica": {
+                        "n/mm2": 0,
+                        "100C": 0,
+                        "200C": 0,
+                        "300C": 0,
+                        "400C": 0
+                    },
+                    "alongamento": {
+                        "até 2.1/2''": 16,
+                        "de 2.1/'' a 4''": 16,
+                        "de 4'' a 7''": 16,
+                        ">7''": 0
+                    },
+                    "reducao_de_area": {
+                        "até 2.1/2''": 50,
+                        "de 2.1/'' a 4''": 50,
+                        "de 4'' a 7''": 50,
+                        ">7''": 0
+                    },
+                    "dureza_brinell": {
+                        "até 2.1/2''": "262~311",
+                        "de 2.1/'' a 4''": "235~285",
+                        "de 4'' a 7''": "288~277",
+                        ">7''": 0
+                    },
+                    "tratamentos_termicos": {
+                        "recozimento": false,
+                        "beneficiamento": false,
+                        "alivio de tensoes": false,
+                        "tempera": true,
+                        "revenimento": true
+                    }
+                },
+                "escopo_de_fornecimento": {
+                    "inspecao_ensaios_e_certificados": {
+                        "composicao quimica": true,
+                        "ensaio de tracao": true,
+                        "ensaio de torcao": false,
+                        "ensaio de compressao": false,
+                        "ensaio de impacto charpy": false,
+                        "ultrassom": false,
+                        "liquido penetrante": false,
+                        "particula magnetica": false,
+                        "raio x": false,
+                        "outros": false
+                    }
+                },
+                "aplicação": {
+                    "valvula_de_emergencia":
+                    {
+                        "corpo": false,
+                        "disco": false,
+                        "anel de pistão": false,
+                        "sede de valvula": false,
+                        "mola": false,
+                        "prisioneiros": false,
+                        "peneira": false,
+                        "hastes": false
+                    },
+                    "valvula_de_regulagem":
+                    {
+                        "haste": false,
+                        "cone": false,
+                        "cesto": false,
+                        "sede": false,
+                        "guias": false,
+                        "buchas": false,
+                        "molas": false,
+                        "prisioneiros": false,
+                        "gaxetas e selagem": false,
+                        "flange guia": false,
+                        "conexoes": false
+                    },
+                    "injetores":
+                    {
+                        "valvula": false,
+                        "conjunto injetor": false,
+                        "anel": false
+                    },
+                    "carcacas":
+                    {
+                        "carcaca de turbina": false,
+                        "valvula_de_regulagem": false
+                    }
+                },
+                "tvl": {
+                    "fitas_de_selagem": false
+                }
+            },
+            {
+                "material": "X20CrMo13",
+                "id": 2,
+                "norma": "SEW400",
+                "chave de material": "4084",
+                "numero_din": "1.4120",
+                "iso": "",
+                "origem": "TLV 924304",
+                "observações": "For labyrinth strips, caulking wires and guide blade shrouds. 1CWW000270",
+                "equivalencia": "",
+                "similar": "",
+                "tipos_de_fornecimento": {
+                    "forma": {
+                        "barra_redonda": false,
+                        "barra retangular": false,
+                        "chapa": true,
+                        "perfil_comercial": false,
+                        "perfil_especial": false
+                    },
+                    "processo": {
+                        "laminado": true,
+                        "terfilado": false,
+                        "forjado": false,
+                        "fundido": false
+                    }
+                },
+                "composicao_quimica": {
+                    "aluminio": {
+                        "min": 0,
+                        "max": 0
+                    },
+                    "carbono": {
+                        "min": 0.17,
+                        "max": 0.22
+                    },
+                    "cromo": {
+                        "min": 12.00,
+                        "max": 13.00
+                    },
+                    "manganes": {
+                        "min": 0.30,
+                        "max": 0.80
+                    },
+                    "molibidenio": {
+                        "min": 0.80,
+                        "max": 1.20
+                    },
+                    "niquel": {
+                        "min": 0,
+                        "max": 0.80
+                    },
+                    "enxofre": {
+                        "min": 0,
+                        "max": 0.015
+                    },
+                    "fosforo": {
+                        "min": 0,
+                        "max": 0.04
+                    },
+                    "silicio": {
+                        "min": 0.10,
+                        "max": 0.50
+                    },
+                    "titanio": {
+                        "min": 0,
+                        "max": 0
+                    },
+                    "tungstenio": {
+                        "min": 0,
+                        "max": 0
+                    },
+                    "vanadio": {
+                        "min": 0,
+                        "max": 0
+                    },
+                    "boro": {
+                        "min": 0,
+                        "max": 0
+                    },
+                    "calcio": {
+                        "min": 0,
+                        "max": 0
+                    },
+                    "chumbo": {
+                        "min": 0,
+                        "max": 0
+                    },
+                    "cobalto": {
+                        "min": 0,
+                        "max": 0
+                    },
+                    "cobre": {
+                        "min": 0,
+                        "max": 0
+                    },
+                    "hidrogenio": {
+                        "min": 0,
+                        "max": 0
+                    },
+                    "niobio": {
+                        "min": 0,
+                        "max": 0
+                    },
+                    "selenio": {
+                        "min": 0,
+                        "max": 0
+                    },
+                    "outros": {
+                        "min": 0,
+                        "max": 0
+                    }
+                },
+                "caracteristicas_mecanicas": {
+                    "tensao_de_ruptura": {
+                        "até 2.1/2''": 0,
+                        "de 2.1/'' a 4''": "750~900",
+                        "de 4'' a 7''": 0,
+                        ">7''": 0
+                    },
+                    "tensao_de_escoamento": {
+                        "até 2.1/2''": 0,
+                        "de 2.1/'' a 4''": 0,
+                        "de 4'' a 7''": 0,
+                        ">7''": 0
+                    },
+                    "limite_elastico": {
+                        "n/mm2": 550,
+                        "100C": 520,
+                        "200C": 500,
+                        "300C": 480,
+                        "400C": 410
+                    },
+                    "modulo_de_elasticidade": {
+                        "n/mm2": 0,
+                        "100C": 0,
+                        "200C": 0,
+                        "300C": 0,
+                        "400C": 0
+                    },
+                    "dilatacao_termica": {
+                        "n/mm2": 0,
+                        "100C": 0,
+                        "200C": 0,
+                        "300C": 0,
+                        "400C": 0
+                    },
+                    "alongamento": {
+                        "até 2.1/2''": 14,
+                        "de 2.1/'' a 4''": 0,
+                        "de 4'' a 7''": 0,
+                        ">7''": 0
+                    },
+                    "reducao_de_area": {
+                        "até 2.1/2''": 0,
+                        "de 2.1/'' a 4''": 0,
+                        "de 4'' a 7''": 0,
+                        ">7''": 0
+                    },
+                    "dureza_brinell": {
+                        "até 2.1/2''": "220~280",
+                        "de 2.1/'' a 4''": 0,
+                        "de 4'' a 7''": 0,
+                        ">7''": 0
+                    },
+                    "tratamentos_termicos": {
+                        "recozimento": true,
+                        "beneficiamento": false,
+                        "alivio de tensoes": false,
+                        "tempera": true,
+                        "revenimento": true
+                    }
+                },
+                "escopo_de_fornecimento": {
+                    "inspecao_ensaios_e_certificados": {
+                        "composicao quimica": false,
+                        "ensaio de tracao": true,
+                        "ensaio de torcao": false,
+                        "ensaio de compressao": false,
+                        "ensaio de impacto charpy": true,
+                        "ultrassom": false,
+                        "liquido penetrante": false,
+                        "particula magnetica": false,
+                        "raio x": false,
+                        "outros": false
+                    }
+                },
+                "aplicação": {
+                    "valvula_de_emergencia":
+                    {
+                        "corpo": false,
+                        "disco": false,
+                        "anel de pistão": false,
+                        "sede de valvula": false,
+                        "mola": false,
+                        "prisioneiros": false,
+                        "peneira": false,
+                        "hastes": false
+                    },
+                    "valvula_de_regulagem":
+                    {
+                        "haste": false,
+                        "cone": false,
+                        "cesto": false,
+                        "sede": false,
+                        "guias": false,
+                        "buchas": false,
+                        "molas": false,
+                        "prisioneiros": false,
+                        "gaxetas e selagem": false,
+                        "flange guia": false,
+                        "conexoes": false
+                    },
+                    "injetores":
+                    {
+                        "valvula": false,
+                        "conjunto injetor": false,
+                        "anel": false
+                    },
+                    "carcacas":
+                    {
+                        "carcaca de turbina": false,
+                        "valvula_de_regulagem": false
+                    }
+                },
+                "tvl": {
+                    "fitas_de_selagem": true
+                }
+            },
+            {
+                "material": "G17CrMO5-5",
+                "id": 3,
+                "norma": "DIN EN 10213",
+                "chave de material": "4830",
+                "numero_din": "1.7357",
+                "iso": "",
+                "origem": "DIN EN 10213 (NORIS)",
+                "observações": "",
+                "equivalencia": "",
+                "similar": "ASTM A217 - WC6",
+                "tipos_de_fornecimento": {
+                    "forma": {
+                        "barra_redonda": false,
+                        "barra retangular": false,
+                        "chapa": false,
+                        "perfil_comercial": false,
+                        "perfil_especial": false
+                    },
+                    "processo": {
+                        "laminado": false,
+                        "terfilado": false,
+                        "forjado": true,
+                        "fundido": false
+                    }
+                },
+                "composicao_quimica": {
+                    "aluminio": {
+                        "min": 0,
+                        "max": 0
+                    },
+                    "carbono": {
+                        "min": 0.15,
+                        "max": 0.20
+                    },
+                    "cromo": {
+                        "min": 1.00,
+                        "max": 1.50
+                    },
+                    "manganes": {
+                        "min": 0.50,
+                        "max": 1.00
+                    },
+                    "molibidenio": {
+                        "min": 0.45,
+                        "max": 0.65
+                    },
+                    "niquel": {
+                        "min": 0,
+                        "max": 0.40
+                    },
+                    "enxofre": {
+                        "min": 0,
+                        "max": 0.02
+                    },
+                    "fosforo": {
+                        "min": 0,
+                        "max": 0.02
+                    },
+                    "silicio": {
+                        "min": 0,
+                        "max": 0.60
+                    },
+                    "titanio": {
+                        "min": 0,
+                        "max": 0
+                    },
+                    "tungstenio": {
+                        "min": 0,
+                        "max": 0
+                    },
+                    "vanadio": {
+                        "min": 0,
+                        "max": 0
+                    },
+                    "boro": {
+                        "min": 0,
+                        "max": 0.05
+                    },
+                    "calcio": {
+                        "min": 0,
+                        "max": 0
+                    },
+                    "chumbo": {
+                        "min": 0,
+                        "max": 0
+                    },
+                    "cobalto": {
+                        "min": 0,
+                        "max": 0
+                    },
+                    "cobre": {
+                        "min": 0,
+                        "max": 0.30
+                    },
+                    "hidrogenio": {
+                        "min": 0,
+                        "max": 0
+                    },
+                    "niobio": {
+                        "min": 0,
+                        "max": 0
+                    },
+                    "selenio": {
+                        "min": 0,
+                        "max": 0
+                    },
+                    "outros": {
+                        "min": 0,
+                        "max": 0
+                    }
+                },
+                "caracteristicas_mecanicas": {
+                    "tensao_de_ruptura": {
+                        "até 2.1/2''": 0,
+                        "de 2.1/'' a 4''": "490~690",
+                        "de 4'' a 7''": 0,
+                        ">7''": 0
+                    },
+                    "tensao_de_escoamento": {
+                        "até 2.1/2''": 0,
+                        "de 2.1/'' a 4''": 0,
+                        "de 4'' a 7''": 0,
+                        ">7''": 0
+                    },
+                    "limite_elastico": {
+                        "n/mm2": 315,
+                        "100C": 0,
+                        "200C": 0,
+                        "300C": 0,
+                        "400C": 0
+                    },
+                    "modulo_de_elasticidade": {
+                        "n/mm2": 0,
+                        "100C": 0,
+                        "200C": 0,
+                        "300C": 0,
+                        "400C": 0
+                    },
+                    "dilatacao_termica": {
+                        "n/mm2": 0,
+                        "100C": 0,
+                        "200C": 0,
+                        "300C": 0,
+                        "400C": 0
+                    },
+                    "alongamento": {
+                        "até 2.1/2''": 14,
+                        "de 2.1/'' a 4''": 0,
+                        "de 4'' a 7''": 0,
+                        ">7''": 0
+                    },
+                    "reducao_de_area": {
+                        "até 2.1/2''": 0,
+                        "de 2.1/'' a 4''": 0,
+                        "de 4'' a 7''": 0,
+                        ">7''": 0
+                    },
+                    "dureza_brinell": {
+                        "até 2.1/2''": "220~280",
+                        "de 2.1/'' a 4''": 0,
+                        "de 4'' a 7''": 0,
+                        ">7''": 0
+                    },
+                    "tratamentos_termicos": {
+                        "recozimento": true,
+                        "beneficiamento": false,
+                        "alivio de tensoes": false,
+                        "tempera": true,
+                        "revenimento": false
+                    }
+                },
+                "escopo_de_fornecimento": {
+                    "inspecao_ensaios_e_certificados": {
+                        "composicao quimica": true,
+                        "ensaio de tracao": true,
+                        "ensaio de torcao": false,
+                        "ensaio de compressao": false,
+                        "ensaio de impacto charpy": true,
+                        "ultrassom": false,
+                        "liquido penetrante": false,
+                        "particula magnetica": false,
+                        "raio x": false,
+                        "outros": true
+                    }
+                },
+                "aplicação": {
+                    "valvula_de_emergencia":
+                    {
+                        "corpo": false,
+                        "disco": false,
+                        "anel de pistão": false,
+                        "sede de valvula": false,
+                        "mola": false,
+                        "prisioneiros": false,
+                        "peneira": false,
+                        "hastes": false
+                    },
+                    "valvula_de_regulagem":
+                    {
+                        "haste": false,
+                        "cone": false,
+                        "cesto": false,
+                        "sede": false,
+                        "guias": false,
+                        "buchas": false,
+                        "molas": false,
+                        "prisioneiros": false,
+                        "gaxetas e selagem": false,
+                        "flange guia": false,
+                        "conexoes": false
+                    },
+                    "injetores":
+                    {
+                        "valvula": false,
+                        "conjunto injetor": false,
+                        "anel": false
+                    },
+                    "carcacas":
+                    {
+                        "carcaca de turbina": false,
+                        "valvula_de_regulagem": true
+                    }
+                },
+                "tvl": {
+                    "fitas_de_selagem": false
+                }
+            }
+    ]
+}
